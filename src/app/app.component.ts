@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeroComponent } from './components/hero/hero.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { JourneyComponent } from './components/journey/journey.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,9 @@ import { HeroComponent } from './components/hero/hero.component';
   imports: [
     CommonModule, 
     RouterOutlet, 
-    HeroComponent
+    HeroComponent,
+    AboutMeComponent,
+    JourneyComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
